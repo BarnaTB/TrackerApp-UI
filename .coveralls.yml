@@ -1,0 +1,4 @@
+service_name: travis-ci
+repo_token: GGMOa1hsRJB5Bibw0ojMGJw2LedCy6nKl
+
+# after-success: nosetests --with-coverage

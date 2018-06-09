@@ -1,0 +1,262 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-size: cover;
+}
+
+/* set and style background image */
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url("https://di-uploads-pod6.dealerinspire.com/jaguarwestashley/uploads/2018/04/Jaguar_Brake-Pads_Parts_1920x823-1024x439.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+/* style page content positioning */
+
+.content {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Style navigation bar */
+
+.navbar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3E2723;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-width: 1px 0;
+    z-index: 9999;
+    width: 100%;
+    height: 45px;
+}
+
+.navbar li {
+    display: inline;
+    /* transition: 0.3s; */
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+li a:hover {
+    background-color: #BCAAA4;
+    color: black;
+}
+
+/* Modify side tab links */
+
+.tab {
+    float: left;
+    border: none;
+    background-color: #3E2723;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tab a {
+    text-decoration: none;
+}
+
+.tab button:hover {
+    background-color: #BCAAA4;
+}
+
+.tab button.active {
+    background-color: rgb(83, 62, 55);
+}
+
+.tabcontent {
+    /* float: left; */
+    padding: 0px 12px;
+    /* border: 1px solid #ccc; */
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+/* set table width and center alignment */
+
+table {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#tb1,
+#tb2,
+#tb3 {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 60%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid
+}
+
+/* Style table headings */
+
+th:nth-child(even) {
+    background-color: #4E342E;
+    color: #ECEFF1;
+}
+
+th:nth-child(odd) {
+    background-color: #e4e4e4;
+    color: #4E342E;
+    opacity: 0.8;
+}
+
+/* Style table content */
+
+td:nth-child(even) {
+    background-color: #4E342E;
+    color: #ECEFF1;
+}
+
+td:nth-child(odd) {
+    background-color: #e4e4e4;
+    color: #4E342E;
+    opacity: 0.8;
+}
+
+/* Style table dates */
+
+#date {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#dt1,
+#dt2,
+#dt3 {
+    color: white;
+}
+
+.date {
+    color: white;
+}
+
+/* Style header */
+
+.header {
+    padding-top: 60px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #ECEFF1;
+    padding-left: 30px;
+}
+
+/* Style approve buttons */
+
+#approve {
+    color: #fff;
+    background-color: #1B5E20;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Style approve buttons on hover */
+
+#approve:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgb(11, 65, 15);
+    border: none;
+    outline: none;
+}
+
+/* Style disapprove buttons */
+
+#disapprove {
+    color: #fff;
+    background-color: #b71c1c;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Style disapprove buttons on hover */
+
+#disapprove:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #6b1010;
+    border: none;
+    outline: none;
+}
+
+/* Style active page in nav bar */
+
+.active {
+    background-color: rgb(83, 62, 55);
+    color: #fff;
+}

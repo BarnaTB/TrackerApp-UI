@@ -1,0 +1,13 @@
+trackerenv/
+.vscode/
+.pytest_cache/
+__pycache__
+app/__init__.pyc
+tests/__init__.pyc
+models.pyc
+tracker.pyc
+run.pyc
+test_tracker.pyc
+views.pyc
+test_run.pyc
+*.pyc

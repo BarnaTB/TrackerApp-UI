@@ -1,0 +1,120 @@
+body {
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url("http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_red_1920x1234.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.content {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: -1;
+    margin-right: -1;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #ECEFF1;
+}
+
+.signin_form_div {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div fieldset {
+    width: 80px;
+    height: 370px;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 95px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px 20px 10px 20px;
+    opacity: 0.8;
+    border-color: #EEEEEE;
+    color: #3E2723;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#dont {
+    color: black;
+    font-weight: bold;
+}
+
+#subBtn {
+    color: #fff;
+    background-color: #4E342E;
+    border-color: #EEEEEE;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#subBtn:hover {
+    cursor: pointer;
+    background-color: rgb(36, 19, 16);
+}
+
+p,
+.welcome {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
